@@ -7,6 +7,9 @@ import me.imskyyc.openSC.OpenSC;
 public enum Placeholder {
 	OSC_PLAYER((plugin, player) -> {
 		return player.getDisplayName();
+	}),
+	OSC_PLAYER_WORLD((plugin, player) -> {
+		return player.getWorld().getName();
 	});
 	
 	private ISupplier function;

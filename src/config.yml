@@ -11,3 +11,22 @@
 #|~~~~~~~~~~ Credits ~~~~~~~~~~~|#
 #Thanks to @KuramaStone on the Spigot forums for the config.yml parser
 
+general:
+
+    #Determines if optional debug outputs are sent to the console.
+    debug: false
+    
+    #Determines if automatic update checking is enabled.
+    check_for_updates: true
+    
+    #The prefix to use in chat to indicate a staff chat message (DOES NOT APPLY TO /sc togglechat)
+    #Example: "# hello, staff" would send in staff chat, but "hello, staff" would send in global chat
+    chat_prefix: "#"
+    
+    #Determines if the plugin will hook in to PlaceholderAPI on start.
+    #For PlaceholderAPI documentation, see: https://www.spigotmc.org/resources/placeholderapi.6245/ or https://github.com/PlaceholderAPI/PlaceholderAPI
+    chat_use_placeholderapi: false
+    
+    #The format for the message to be sent in staff chat. For a list of all available placeholders, see: https://github.com/imskyyc/openSC
+    #This plugin suports Chat Color Codes using the "&" prefix. For a list of colors, see: https://www.digminecraft.com/lists/color_list_pc.php
+    chat_format: "&1[STAFF | %osc_player% @ %osc_player_world%] {{message}}"

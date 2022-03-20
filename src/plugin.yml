@@ -1,0 +1,10 @@
+name: openSC
+author: imskyyc
+main: me.imskyyc.openSC.OpenSC
+version: 1.0
+api-version: 1.18
+
+commands:
+   sc:
+      usage: /<command>
+      description: Shows the openSB help menu.

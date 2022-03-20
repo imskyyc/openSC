@@ -11,7 +11,7 @@ public class PrimaryCommand extends BaseCommand {
 		super(plugin);
 		
 		setName("sc");
-		setDescription("Shows the openSC help menu and sub commands.");
+		setDescription("Shows the openSC help menu and sub-commands.");
 		setClientRunnable(true);
 		setServerRunnable(true);
 	}
